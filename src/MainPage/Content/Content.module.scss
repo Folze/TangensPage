@@ -1,0 +1,38 @@
+.content {
+    background-color: rgba(0, 0, 0, 0.912)
+}
+
+.text {
+    color: bisque;
+    // max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.text p {
+    margin: 0px 0px 20px 0px;
+}
+
+
+.container {
+    display: flex;
+    // justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+
+.avatar img {
+    max-width: 100%;
+    border-radius: 30%;
+    padding: 100px;
+    // margin: 111px;
+    display: inline-block; 
+}
+
+.textAvatar {
+    display: inline-block;
+    padding: 100px;
+}
