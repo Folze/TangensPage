@@ -13,7 +13,7 @@ const Navbar = () => {
 
                 {/* 1 кнопка */}
                 <div className={styles.button}>
-                    <button className={styles.buttonOne}>
+                    <button className={styles.buttonFour}>
                         <span></span><span></span><span></span><span></span>
                         Главная
                     </button>
@@ -21,7 +21,7 @@ const Navbar = () => {
 
                     <div>
                         <NavLink to="/Blog">
-                            <button className={styles.buttonTwo}>
+                            <button className={styles.buttonFour}>
                                 <span></span><span></span><span></span><span></span>
                                 Blog
                             </button>
@@ -31,7 +31,7 @@ const Navbar = () => {
                     {/* 3 Кнопка */}
 
                     <NavLink to="/Games">
-                        <button className={styles.buttonThree}>
+                        <button className={styles.buttonFour}>
                             <span></span><span></span><span></span><span></span>
                             Игры
                         </button>
