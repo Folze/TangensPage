@@ -13,10 +13,12 @@ const Navbar = () => {
 
                 {/* 1 кнопка */}
                 <div className={styles.button}>
-                    <button className={styles.buttonFour}>
-                        <span></span><span></span><span></span><span></span>
-                        Главная
-                    </button>
+                    <div>
+                        <button className={styles.buttonFour}>
+                            <span></span><span></span><span></span><span></span>
+                            Главная
+                        </button>
+                    </div>
                     {/* 2 кнока */}
 
                     <div>
