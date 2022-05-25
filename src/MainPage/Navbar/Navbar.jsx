@@ -11,6 +11,7 @@ const Navbar = () => {
             {/* </div> */}
 
             {/* 1 кнопка */}
+
             <div className={styles.button}>
                 <div>
                     <button className={styles.buttonFour}>
@@ -18,16 +19,15 @@ const Navbar = () => {
                         Главная
                     </button>
                 </div>
+
                 {/* 2 кнока */}
 
-                <div>
-                    <NavLink to="/Blog">
-                        <button className={styles.buttonFour}>
-                            <span></span><span></span><span></span><span></span>
-                            Blog
-                        </button>
-                    </NavLink>
-                </div>
+                <NavLink to="/Blog">
+                    <button className={styles.buttonFour}>
+                        <span></span><span></span><span></span><span></span>
+                        Blog
+                    </button>
+                </NavLink>
 
                 {/* 3 Кнопка */}
 
