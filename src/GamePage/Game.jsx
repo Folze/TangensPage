@@ -13,7 +13,6 @@ const Games = () => {
             </NavLink>
             <img src={kisa} alt="game1" />
         </div>
-
     )
 }
 
