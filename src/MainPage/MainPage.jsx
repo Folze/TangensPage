@@ -12,7 +12,7 @@ function MainPage() {
             <Navbar />
             <StartVideo />
             {/* <Header /> */}
-            <DanyaTangens />
+            {/* <DanyaTangens /> */}
             <Content />
             <Links />
         </div>

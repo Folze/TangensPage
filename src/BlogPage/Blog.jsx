@@ -4,12 +4,8 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
     return (
         <div> <NavLink to="/" >
-            <p>Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Aut vel reprehenderit
-                inventore obcaecati expedita unde?
-                Assumenda doloremque nostrum voluptate,
-                vitae quas, laborum est sequi, amet mollitia
-                velit suscipit modi eaque?
+            <p>
+                Back to home
             </p>
         </NavLink>
         </div>

@@ -14,10 +14,12 @@ const Navbar = () => {
 
             <div className={styles.button}>
                 <div>
-                    <button className={styles.buttonFour}>
-                        <span></span><span></span><span></span><span></span>
-                        Главная
-                    </button>
+                    <NavLink to="/">
+                        <button className={styles.buttonFour}>
+                            <span></span><span></span><span></span><span></span>
+                            Главная
+                        </button>
+                    </NavLink>
                 </div>
 
                 {/* 2 кнока */}
