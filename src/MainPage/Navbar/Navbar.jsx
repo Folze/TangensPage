@@ -11,21 +11,21 @@ const Navbar = () => {
             {/* </div> */}
 
             {/* 1 кнопка */}
-
             <div className={styles.button}>
-                <div>
-                    <button className={styles.buttonFour}>
-                        <span></span><span></span><span></span><span></span>
-                        Главная
-                    </button>
-                </div>
-
+                <NavLink to="/">
+                    <div>
+                        <button className={styles.buttonFour}>
+                            <span></span><span></span><span></span><span></span>
+                            Главная
+                        </button>
+                    </div>
+                </NavLink>
                 {/* 2 кнока */}
 
                 <NavLink to="/Blog">
                     <button className={styles.buttonFour}>
                         <span></span><span></span><span></span><span></span>
-                        Blog
+                        Блог
                     </button>
                 </NavLink>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </NavLink>
 
             </div>
-        </div>
+        </div >
     )
 }
 

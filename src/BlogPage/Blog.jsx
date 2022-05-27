@@ -1,17 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Navbar from "../MainPage/Navbar/Navbar";
+import s from "./Blog.module.scss"
 
 const Blog = () => {
     return (
-        <div> <NavLink to="/" >
-            <p>Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Aut vel reprehenderit
-                inventore obcaecati expedita unde?
-                Assumenda doloremque nostrum voluptate,
-                vitae quas, laborum est sequi, amet mollitia
-                velit suscipit modi eaque?
-            </p>
-        </NavLink>
+        <div className={s.background}>
+            <Navbar />
         </div>
 
     )
