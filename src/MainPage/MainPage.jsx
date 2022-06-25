@@ -1,6 +1,6 @@
 import React from "react"
 // import Header from './Header/Header';
-import DanyaTangens from './DanyaTangensHeader/DanyaTangens';
+// import DanyaTangens from './DanyaTangensHeader/DanyaTangens';
 import Navbar from './Navbar/Navbar';
 import StartVideo from './Video/Video';
 import Content from './Content/Content';
@@ -12,7 +12,7 @@ function MainPage() {
             <Navbar />
             <StartVideo />
             {/* <Header /> */}
-            <DanyaTangens />
+            {/* <DanyaTangens /> */}
             <Content />
             <Links />
         </div>
