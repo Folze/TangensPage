@@ -1,13 +1,27 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import kisa from "../assets/kisa.jpg"
+// import { NavLink } from "react-router-dom";
+import gif from "../assets/gif.gif"
 import Navbar from "../MainPage/Navbar/Navbar";
-import styles from "./Game.module.scss";
+import s from "./Game.module.scss";
 
 const Games = () => {
     return (
-        <div>
+        <div className={s.body}>
             <Navbar />
+            <div className={s.games}>
+                <div className={s.game1}>
+                    <img src={gif} alt="gifka"></img>
+                </div>
+                <div className={s.game2}>
+                    <img src={gif} alt="gifka"></img>
+                </div>
+                <div className={s.game3}>
+                    <img src={gif} alt="gifka"></img>
+                </div>
+                <div className={s.game4}>
+                    <img src={gif} alt="gifka"></img>
+                </div>
+            </div>
         </div>
     )
 }

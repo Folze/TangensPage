@@ -14,8 +14,7 @@ const Content = () => {
                         <img src={kisa} alt="kison" />
                     </div>
                     <div className={s.textAvatar}>
-                        Ya DanyaTangens ya ne gay and programmist afk gamecreater
-                        Mister Cringer
+                        Danyatangens
                     </div>
                 </div>
 
