@@ -6,6 +6,7 @@ import StartVideo from './Video/Video';
 import Content from './Content/Content';
 import Links from "./Links/Links";
 
+
 function MainPage() {
     return (
         <div>

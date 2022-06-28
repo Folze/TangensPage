@@ -12,7 +12,7 @@
 }
 
 .text p {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px;
 }
 
 
@@ -34,5 +34,9 @@
 
 .textAvatar {
     display: inline-block;
-    padding: 100px;
+    padding: 100px;    
+    color: bisque;
+    margin: 0px auto;
+    font-size: 18px;
+    line-height: 150%;
 }

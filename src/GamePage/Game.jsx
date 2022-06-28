@@ -6,7 +6,7 @@ import s from "./Game.module.scss";
 
 const Games = () => {
     return (
-        <div className={s.body}>
+        <div className={s.hs}>
             <Navbar />
             <div className={s.games}>
                 <div className={s.game1}>
@@ -16,9 +16,6 @@ const Games = () => {
                     <img src={gif} alt="gifka"></img>
                 </div>
                 <div className={s.game3}>
-                    <img src={gif} alt="gifka"></img>
-                </div>
-                <div className={s.game4}>
                     <img src={gif} alt="gifka"></img>
                 </div>
             </div>
